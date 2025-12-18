@@ -1,0 +1,19 @@
+Chapter 7: Election Symbols
+
+51. What is an election symbol?
+An election symbol is a symbol on the ballot that identifies a political party or a candidate in the election.
+
+52. How is an election symbol assigned to a political organization or party after registration?
+The election symbol is assigned to a political organization or party after registration by the following process:
+a. For the purpose of election, any political organization or party is required to register through application to the Election Commission.
+b. While registering such an application, a party must request its desired election symbol.
+c. The Election Commission decides which election symbol is assigned to which party.
+
+53. What is the process or procedure regarding distribution of symbols to candidates in an election?
+a. While assigning or distributing election symbols, the Election Commission shall assign the symbols in the following order: to a recognized political organization or party, to an unrecognized political organization or party, to an independent candidate.
+b. The Commission shall assign the same symbol to candidates of one registered political organization or party.
+c. In the election to the House of Representatives, candidates contesting from unrecognized political organizations or parties will run with the symbol allotted to the party nationwide. However, in local elections, candidates of unrecognized parties shall get any election symbol assigned by the Election Commission.
+d. An independent candidate shall get any symbol assigned by the Election Commission for independent candidates.
+
+54. How are disputes regarding the distribution of election symbols settled?
+If more than one independent candidate demands the same election symbol, the Election Commission may settle the dispute and assign the election symbol by lottery.

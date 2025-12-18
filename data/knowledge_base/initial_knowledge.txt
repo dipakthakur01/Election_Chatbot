@@ -1,0 +1,386 @@
+Question: नेपालमा भोट दर्ता कसरी गर्ने?
+Answer (English): In Nepal, voter registration is done at the District Election Office (DEO) or your local ward office. Bring your citizenship ID and required documents. ECN provides biometric registration guidance. See https://election.gov.np/ for official information.
+Answer (Nepali): नेपालमा मतदाता दर्ता जिल्ला निर्वाचन कार्यालय (DEO) वा स्थानीय वडा कार्यालयमार्फत गरिन्छ। नेपाली नागरिकता प्रमाणपत्र र आवश्यक कागजात सहित निर्वाचन आयोग, नेपाल (ECN) को निर्देशिकाअनुसार बायोमेट्रिक दर्ता हुन्छ। आधिकारिक जानकारीका लागि https://election.gov.np/ हेर्नुहोस्।
+
+Question: काठमाडौंमा मतदाता दर्ता कहाँ गर्ने?
+Answer (English): In Kathmandu, register at the District Election Office (DEO Kathmandu) or your municipal ward office. Carry your citizenship ID and required documents. Follow ECN notices.
+Answer (Nepali): जिल्ला निर्वाचन कार्यालय काठमाडौं वा काठमाडौं महानगरपालिका/छेउका नगरपालिकाका वडा कार्यालयमा दर्ता गर्न सकिन्छ। नागरिकता प्रमाणपत्र र आवश्यक कागजात लिएर जानुहोस्। निर्वाचन आयोग नेपाल (ECN) का सूचनालाई पालन गर्नुहोस्।
+
+Question: काठमाडौंमा मतदान केन्द्र कसरी पत्ता लगाउने?
+Answer (English): In Kathmandu, your polling center is assigned based on your ward’s voter list. Confirm at your ward office or DEO Kathmandu. Bring an accepted ID on election day.
+Answer (Nepali): काठमाडौंमा तपाईंको मतदान केन्द्र तपाईंको वडाको मतदाता सूचीको आधारमा तोकिएको हुन्छ। आफ्नो वडा कार्यालय वा जिल्ला निर्वाचन कार्यालय काठमाडौंमार्फत केन्द्र पुष्टि गर्नुहोस्। मतदान दिन स्वीकार्य परिचयपत्र साथमा राख्नुहोस्।
+
+Question: काठमाडौंमा मतदान समय र लाइन
+Answer (English): In Kathmandu, voting hours follow ECN’s official schedule. If you are in line before closing, you can usually vote. Check local notices for exact times.
+Answer (Nepali): काठमाडौंमा मतदान समय ECN को आधिकारिक तालिकाअनुसार हुन्छ। बन्द हुनुभन्दा अगाडि लाइनमा बसेको अवस्थामा सामान्यतः मतदान गर्न पाइन्छ। सटीक समयका लागि स्थानीय सूचना हेर्नुहोस्।
+
+Question: काठमाडौंमा मतदाता विवरण सुधार कसरी गर्ने?
+Answer (English): For corrections (name/address) in Kathmandu, apply with supporting documents at your ward office or DEO Kathmandu. Follow ECN timelines.
+Answer (Nepali): नाम वा ठेगाना सुधारको लागि काठमाडौंको वडा कार्यालय वा जिल्ला निर्वाचन कार्यालय काठमाडौंमा प्रमाणक कागजात सहित निवेदन दिनुहोस्। समयसीमाका लागि ECN को मार्गदर्शन हेर्नुहोस्।
+
+Question: काठमाडौंमा कुन परिचयपत्र स्वीकारिन्छ?
+Answer (English): Voter ID is preferred. If unavailable, carry your citizenship certificate or other ECN-accepted identification. Confirm with your ward office or DEO Kathmandu before election day.
+Answer (Nepali): मतदाता परिचयपत्र प्राथमिक हुन्छ। उपलब्ध नभएमा नागरिकता प्रमाणपत्र वा ECN ले स्वीकार गर्ने कागजात लिएर जानुहोस्। निर्वाचन दिनअघि वडा कार्यालय वा DEO काठमाडौंसँग जानकारी पुष्टि गर्नुहोस्।
+
+Question: काठमाडौंमा मेरो दर्ता स्थिति कहाँ हेर्ने?
+Answer (English): Check the published voter list at your ward office or at DEO Kathmandu to verify your registration status. Carry your ID when requesting information.
+Answer (Nepali): काठमाडौंको वडा कार्यालयमा प्रकाशित मतदाता सूची वा जिल्ला निर्वाचन कार्यालय काठमाडौंमा आफ्नो दर्ता स्थिति जाँच्न सकिन्छ। जानकारी अनुरोध गर्दा परिचयपत्र साथमा राख्नुहोस्।
+
+Question: मतदाता दर्ता कहिले बन्द हुन्छ?
+Answer (English): Voter registration is generally open at District Election Offices, but ECN sets a cutoff before elections. Check ECN notices and your local office for current deadlines.
+Answer (Nepali): नेपालमा दर्ता प्रायः जिल्ला निर्वाचन कार्यालयमा नियमित रूपमा खुला हुन्छ, तर निर्वाचन घोषणापूर्व बन्द हुने कटअफ ECN ले तय गर्छ। पछिल्लो समयसीमाका लागि ECN का सूचना र स्थानीय कार्यालयको सूचना हेर्नुहोस्।
+
+Question: म नेपालमा मतदान गर्न योग्य छु?
+Answer (English): You are eligible to vote if you are a Nepali citizen, at least 18 years old, and not legally disqualified. Refer to ECN and applicable laws for full criteria.
+Answer (Nepali): सामान्यतया मतदानयोग्य हुन नेपाली नागरिक हुनु, कानुनी उमेर १८ वर्ष पूरा गर्नु, र कानुनी रूपमा अयोग्य नहुनु आवश्यक छ। विस्तृत कानुनी मानक ECN र लागू कानुनमा हेर्नुहोस्।
+
+Question: म कुन मतदान केन्द्रमा जानुपर्छ?
+Answer (English): Your polling center is assigned based on your ward’s voter list. Confirm at your ward office or the District Election Office. Bring an accepted ID on election day.
+Answer (Nepali): तपाईंको नाम सूचीकृत भएको मतदाता सूचीअनुसार मतदान केन्द्र तोकिँन्छ। ECN का सूचना, स्थानीय वडा कार्यालय, वा जिल्ला निर्वाचन कार्यालयमा आफ्नो केन्द्र पुष्टि गर्नुहोस्। मतदान दिन आवश्यक परिचयपत्र लिएर जानुहोस्।
+
+Question: मतदान समय कति हुन्छ?
+Answer (English): Voting hours follow ECN’s official schedule. If you are in line before closing, you can usually vote. Refer to local notices for exact times.
+Answer (Nepali): मतदान समय ECN ले सूचित गरेको तालिकाअनुसार हुन्छ। सामान्यतः बिहानबाट बेलुकासम्म, तर आधिकारिक सूचनालाई प्राथमिकता दिनुहोस्। बन्द हुनुभन्दा अगाडि लाइनमा बसेको अवस्थामा प्रायः मतदान गर्न दिइन्छ।
+
+Question: मतदान गर्न के परिचयपत्र चाहिन्छ?
+Answer (English): A voter ID is preferred in Nepal. If lost or unavailable, carry your citizenship certificate or other ECN-accepted identification. Follow local office guidance.
+Answer (Nepali): नेपालमा मतदाता परिचयपत्र (voter ID) प्राथमिक हुन्छ। परिचयपत्र हराए/नभएको अवस्थामा नागरिकता प्रमाणपत्र वा ECN ले स्वीकार गर्ने प्रमाण बोकेर जानुहोस्। स्थानीय कार्यालयको निर्देशिकालाई पालना गर्नुहोस्।
+
+Question: डाकमार्फत/विदेशबाट मतदाता मतदान गर्न मिल्छ?
+Answer (English): Nepal does not provide postal or overseas voting for general voters. You must vote in person at your assigned polling center. Check ECN notices for any special provisions.
+Answer (Nepali): सामान्य मतदाताका लागि नेपालमा डाकमार्फत वा विदेशबाट मतदानको व्यवस्था छैन। तोकिएको मतदान केन्द्रमै उपस्थित भई मतदान गर्नुपर्छ। विशेष व्यवस्थाबारे ECN का सूचनामा हेर्नुहोस्।
+
+Question: मेरो मतदाता दर्ता स्थिति कसरी हेर्ने?
+Answer (English): Check your name in the published voter list at your ward office, or verify at the District Election Office.
+Answer (Nepali): ECN र स्थानीय कार्यालयले सार्वजनिक गरेको मतदाता सूचीमा आफ्नो नाम जाँच्नुहोस्। आवश्यक विवरण सहित स्थानीय वडा कार्यालय वा जिल्ला निर्वाचन कार्यालयमा पुष्टि गर्न सकिन्छ।
+
+Question: मतदाता सूचीमा मेरो नाम छैन भने के गर्ने?
+Answer (English): Notify polling officials immediately, then visit your ward office or the District Election Office to resolve your registration status. Without your name on the list, voting is generally not possible.
+Answer (Nepali): तुरुन्तै मतदान केन्द्रका अधिकृतलाई जानकारी दिनुहोस् र जिल्ला निर्वाचन कार्यालय वा वडा कार्यालयमा आफ्नो दर्ता स्थितिको समाधान गर्नुस्। सूचीमा नाम नभए सामान्यतया मतदान सम्भव हुँदैन।
+
+Question: अपांगता भएका मतदाताका लागि के व्यवस्था छ?
+Answer (English): ECN and polling centers provide accessible arrangements, assistance services, and priority lines. Coordinate with your local office in advance for specific support.
+Answer (Nepali): ECN र मतदान केन्द्रहरूमा पहुँचयोग्य व्यवस्था, सहायक सेवा, प्राथमिकता लाइन जस्ता व्यवस्था राखिन्छन्। आगोअगाडि स्थानीय कार्यालयसँग उपलब्ध विकल्पबारे जानकारी लिऔं।
+
+Question: काठमाडौं वडा कार्यालयहरू — सम्पर्क र स्थान
+Answer (English): Kathmandu Metropolitan ward offices provide voter list services, corrections, and local information. Visit during office hours. Addresses and phone numbers for wards 1–32 should be added when available.
+Answer (Nepali): काठमाडौं महानगरपालिकाका वडा कार्यालयहरू मतदाता सूची, सुधार, र स्थानीय सूचनाहरू सम्बन्धित सेवा दिन्छन्। सेवा समयभित्र आफ्नो वडा कार्यालयमा जानुहोस्। वडाहरू १–३२ का ठेगाना/फोनहरू पछि थप्नुहोस्।
+
+Question: काठमाडौं — मतदान केन्द्रहरूको नमूना सूची
+Answer (English): ECN assigns polling centers for each ward. Once official information is available, prepare lists of schools and community buildings for your ward. Confirm with ECN/DEO Kathmandu before election day.
+Answer (Nepali): मतदान केन्द्रहरू ECN ले प्रत्येक वडाअनुसार निर्धारण गर्छ। आधिकारिक जानकारी प्राप्त भएपछि विद्यालय/समुदाय भवनहरूका सूचिहरू वर्ड-भित्र तयार पार्नुहोस्। मतदानअघि ECN/DEO काठमाडौंसँग पुष्टि गर्नुहोस्।
+
+Question: जिल्ला निर्वाचन कार्यालय काठमाडौं कहाँ छ?
+Answer (English): The District Election Office Kathmandu manages registration, corrections, and notices. Update address and phone details here when available. Check ECN for current information.
+Answer (Nepali): जिल्ला निर्वाचन कार्यालय काठमाडौं दर्ता, सुधार, तथा सूचनाहरूको व्यवस्थापन गर्छ। ठेगाना र फोन नम्बर उपलब्ध भए पछि यहाँ अद्यावधिक गर्नुहोस्। ECN मा हालको जानकारी जाँच्नुहोस्।
+
+Question: काठमाडौं — मतदाता परिचयपत्र हराए के गर्ने?
+Answer (English): If your voter card is lost, carry your citizenship certificate and visit your ward office or DEO Kathmandu to confirm identity and learn about replacement procedures.
+Answer (Nepali): मतदाता परिचयपत्र हराएमा नागरिकता प्रमाणपत्र सहित आफ्नो वडा कार्यालय वा DEO काठमाडौंमा गएर पुष्टि वा पुनः जारी प्रक्रियाबारे जानकारी लिनुहोस्।
+
+Question: काठमाडौं — मतदाता सूचीमा ठेगाना परिवर्तन
+Answer (English): To change your address, apply with supporting documents at your ward office or DEO Kathmandu. Follow ECN timelines and instructions.
+Answer (Nepali): ठेगाना परिवर्तनका लागि प्रमाणक कागजात सहित आफ्नो वडा कार्यालय वा DEO काठमाडौंमा निवेदन दिनुहोस्। प्रक्रिया ECN का समयतालिका र सूचनाअनुसार हुन्छ।
+
+Question: काठमाडौं — पहिलो पटक मतदाता मार्गदर्शन
+Answer (English): Confirm your registration, identify your polling center, carry an accepted ID, follow ECN instructions at the polling center, and cast your vote correctly.
+Answer (Nepali): दर्ता पुष्टि गर्नुहोस्, मतदान केन्द्र पहिचान गर्नुहोस्, स्वीकार्य परिचयपत्र लिएर जानुहोस्, मतदान केन्द्रमा ECN को निर्देशन पालना गर्नुहोस्, सही तरिकाले आफ्नो मत खसाल्नुहोस्।
+
+Question: काठमाडौं — पहुँचयोग्य सहायता
+Answer (English): Accessible arrangements, assistance, and priority lines are available. If you need special support, coordinate in advance with your ward office or DEO Kathmandu.
+Answer (Nepali): पहुँचयोग्य व्यवस्था, सहयोग र प्राथमिकता लाइन उपलब्ध हुन्छन्। विशेष सहयोग आवश्यक परे वडा कार्यालय वा DEO काठमाडौंसँग अग्रिम समन्वय गर्नुहोस्।
+
+Question: What electoral system does Nepal use?
+Answer (English): Nepal uses a mixed electoral system for the House of Representatives with parallel voting: first-past-the-post (FPTP) and proportional representation (PR) run side-by-side without compensation between them.
+
+Question: How many members are in the House of Representatives?
+Answer (English): The House of Representatives has 275 members in total.
+
+Question: What is the difference between FPTP and PR electoral systems in Nepal?
+Answer (English): Under FPTP, the candidate with the most votes in a constituency wins the seat. Under PR, parties receive seats in proportion to their share of the national PR vote using list candidates and an allocation method defined by law.
+
+Question: How many seats are allocated through first-past-the-post voting?
+Answer (English): 165 seats in the House of Representatives are allocated through first-past-the-post voting.
+
+Question: How many seats are filled through proportional representation?
+Answer (English): 110 seats in the House of Representatives are filled through proportional representation.
+
+Question: What is parallel voting in the context of Nepal's elections?
+Answer (English): Parallel voting means the FPTP and PR tiers operate side-by-side and are tallied independently; PR seats do not compensate for disproportionality in FPTP results.
+
+Question: What type of government structure does Nepal have?
+Answer (English): Nepal is a federal democratic republic with three levels of government: federal, provincial, and local.
+
+Question: How many levels of government exist in Nepal?
+Answer (English): Nepal has three levels of government: federal, provincial, and local.
+
+Question: What is a bicameral legislature?
+Answer (English): A bicameral legislature has two houses. In Nepal, the Federal Parliament consists of the House of Representatives (lower house) and the National Assembly (upper house).
+
+Question: What are the differences between the House of Representatives and the National Assembly?
+Answer (English): The House of Representatives is directly elected using FPTP and PR, initiates most legislation, and forms the government. The National Assembly is elected via an electoral college and reviews legislation; it is a permanent house with staggered terms.
+
+Question: How many provinces does Nepal have?
+Answer (English): Nepal has seven provinces.
+
+Question: When did Nepal become a federal republic?
+Answer (English): Nepal’s 2015 Constitution established the federal democratic republic structure. Nepal was declared a republic in 2008.
+
+Question: Who is eligible to vote in Nepal?
+Answer (English): Nepali citizens aged 18 or above who are not legally disqualified and are registered in the voter list are eligible to vote.
+
+Question: What is the minimum voting age in Nepal?
+Answer (English): The minimum voting age in Nepal is 18 years.
+
+Question: How do citizens register to vote?
+Answer (English): Citizens register at the District Election Office or local ward offices according to ECN procedures, providing citizenship and required documents.
+
+Question: What documents are needed for voter registration?
+Answer (English): Typically, a citizenship certificate and supporting documents as specified by ECN are required for voter registration.
+
+Question: What is a voter identity card and why is it important?
+Answer (English): A voter identity card identifies registered voters and is used to verify identity at polling stations. If unavailable, carry other ECN-accepted identification.
+
+Question: What are the requirements to become a candidate for the House of Representatives?
+Answer (English): Candidates must meet legal requirements including Nepali citizenship, minimum age, and not be legally disqualified. Nominations must be filed in accordance with ECN regulations.
+
+Question: What is the minimum age to run for parliament?
+Answer (English): For the House of Representatives, the minimum age to stand as a candidate is generally 25 years, as provided by law.
+
+Question: Can candidates run in multiple constituencies?
+Answer (English): Election law requires candidates to file nomination in accordance with rules; multiple nominations for the same election are not permitted.
+
+Question: What are the disqualifications for candidacy?
+Answer (English): Disqualifications include legal bars such as holding certain offices, criminal convictions or other grounds specified by election law. Refer to ECN regulations for full details.
+
+Question: How do independent candidates participate in elections?
+Answer (English): Independent candidates may file nominations without party affiliation by meeting the legal requirements and procedures set by ECN.
+
+Question: What is the role of the Election Commission of Nepal?
+Answer (English): ECN administers, supervises, and conducts elections; manages voter lists, polling, counting, enforcement of the code of conduct, and overall integrity measures.
+
+Question: How many Election Commissioners are there?
+Answer (English): ECN is led by the Chief Election Commissioner with other Election Commissioners as provided by law.
+
+Question: Who heads the Election Commission?
+Answer (English): The Chief Election Commissioner heads the Election Commission of Nepal.
+
+Question: What are the Election Commission's main responsibilities?
+Answer (English): ECN’s responsibilities include voter registration, polling logistics, counting, results publication, observer coordination, and enforcement of the election code of conduct.
+
+Question: How does the Election Commission ensure fair elections?
+Answer (English): ECN enforces legal procedures, deploys trained officials, accredits observers, monitors campaigns, and applies the code of conduct to safeguard fairness.
+
+Question: How many electoral constituencies are there in Nepal?
+Answer (English): There are 165 House of Representatives constituencies for FPTP elections.
+
+Question: How are constituency boundaries determined?
+Answer (English): Constituency boundaries are determined by a legal commission based on criteria such as population, geography, and administrative convenience.
+
+Question: What is the Electoral Constituency Delineation Commission?
+Answer (English): It is a legal body tasked with proposing constituency boundaries based on criteria set in law and the constitution.
+
+Question: On what basis are constituencies divided?
+Answer (English): Constituencies are divided primarily on population considerations, geographic features, and administrative boundaries according to legal criteria.
+
+Question: How long do constituency boundaries remain valid?
+Answer (English): Boundaries remain valid until revised through a subsequent delimitation process under law.
+
+Question: How does the proportional representation system work in Nepal?
+Answer (English): Parties submit closed lists. PR seats are allocated to parties in proportion to their share of valid PR votes using the allocation method specified by law.
+
+Question: What is the election threshold for PR seats?
+Answer (English): A legal threshold applies for parties to qualify for PR seats. Refer to ECN regulations for the exact percentage requirement.
+
+Question: What is the Webster method for allocating PR seats?
+Answer (English): Nepal applies the Sainte-Laguë (Webster) method to allocate proportional representation seats across qualifying parties.
+
+Question: How are party lists created for PR elections?
+Answer (English): Parties submit closed lists following inclusive representation requirements and other legal criteria set by the constitution and election law.
+
+Question: What are closed list proportional representation systems?
+Answer (English): In a closed list PR system, voters choose parties rather than individual list candidates; parties determine the order of candidates seated.
+
+Question: What provisions exist for women's representation?
+Answer (English): Nepal mandates inclusive representation for women, including minimum representation requirements through PR lists and party obligations.
+
+Question: How are marginalized groups represented in parliament?
+Answer (English): PR lists and legal provisions ensure representation of marginalized groups such as Dalits, Janajatis, Madhesis, Tharu, Muslims, and others, as defined by law.
+
+Question: What is the quota system in Nepal's elections?
+Answer (English): The quota system enforces inclusive representation criteria in party lists and overall seat allocation to reflect diversity and ensure participation.
+
+Question: Who are considered marginalized groups (Dalits, Janajatis, Madhesis)?
+Answer (English): Marginalized groups include communities identified by law, such as Dalits, Janajatis, Madhesis, Tharu, Muslims, and others, for inclusive representation.
+
+Question: What percentage of seats must be reserved for women?
+Answer (English): Election law and the constitution specify minimum representation for women across party lists and overall seats; consult ECN regulations for exact percentages.
+
+Question: How are provincial assembly members elected?
+Answer (English): Provincial assembly members are elected through a mixed system combining FPTP and PR, similar in principle to federal elections.
+
+Question: How many members are in provincial assemblies?
+Answer (English): Provincial assembly sizes are defined by law and vary by province; members are elected via FPTP and PR.
+
+Question: What is the structure of local elections?
+Answer (English): Local elections select representatives at the municipal and rural municipality levels, including executive posts and ward representatives, primarily via FPTP.
+
+Question: How are mayors and deputy mayors elected?
+Answer (English): Mayors and deputy mayors are elected directly by voters in their municipalities using first-past-the-post.
+
+Question: What electoral system is used for local elections?
+Answer (English): Local executive positions are elected via FPTP; councils include ward-level representatives and may include proportional elements as defined by law.
+
+Question: How is the National Assembly elected?
+Answer (English): Members of the National Assembly are elected by an electoral college comprising provincial assembly members and local representatives, with votes weighted by law.
+
+Question: What is an electoral college?
+Answer (English): An electoral college is a body of electors—here, provincial assembly members and local representatives—who vote to elect National Assembly members.
+
+Question: How are National Assembly votes weighted?
+Answer (English): Votes in the National Assembly electoral college are weighted according to law to balance provincial and local representation.
+
+Question: How many members does the National Assembly have?
+Answer (English): The National Assembly has 59 members with staggered terms.
+
+Question: What is the term length for National Assembly members?
+Answer (English): National Assembly members serve six-year terms, with one-third of seats rotated every two years.
+
+Question: How is the President of Nepal elected?
+Answer (English): The President is elected by an electoral college comprising members of the Federal Parliament and provincial assemblies, as provided by law.
+
+Question: What is the role of the President?
+Answer (English): The President serves as head of state with constitutional roles including appointing officials and performing ceremonial duties as provided by law.
+
+Question: How are provincial chief ministers chosen?
+Answer (English): Chief Ministers are chosen from the provincial assembly—typically the leader of the majority or governing coalition—under the constitution and provincial law.
+
+Question: What powers does the Prime Minister have?
+Answer (English): The Prime Minister is head of government, leads the executive, forms the cabinet, and directs state policy subject to constitutional limits.
+
+Question: How is the government formed after elections?
+Answer (English): The party or coalition with a majority in the House of Representatives forms the government; the Prime Minister is appointed according to constitutional procedures.
+
+Question: How does the voting process work on election day?
+Answer (English): Voters verify identity, receive ballots, mark choices in secret, and deposit ballots in sealed boxes. Polling officials manage the process under ECN rules.
+
+Question: How many ballot papers does each voter receive?
+Answer (English): In general elections for the House of Representatives, voters receive two ballots: one for FPTP and one for PR.
+
+Question: What happens at polling stations?
+Answer (English): Polling stations check voter identities, issue ballots, ensure secrecy, assist where needed, and maintain order according to ECN rules.
+
+Question: How is vote counting conducted?
+Answer (English): Counting follows legal procedures: ballots are sorted and counted under supervision; results are compiled and transmitted for publication.
+
+Question: What are counting representatives?
+Answer (English): Counting representatives are authorized party agents or observers who witness the counting process to enhance transparency.
+
+Question: When was the last parliamentary election held?
+Answer (English): Refer to ECN’s official election calendar and notices for the dates of the most recent parliamentary elections.
+
+Question: When did the Constituent Assembly elections take place?
+Answer (English): Constituent Assembly elections were held in two phases in the late 2000s and early 2010s; consult ECN records for precise dates.
+
+Question: What was the 2015 constitution's impact on elections?
+Answer (English): The 2015 Constitution established a federal system, defined electoral institutions and processes, and set out inclusive representation requirements.
+
+Question: How has Nepal's electoral system evolved?
+Answer (English): Nepal’s electoral system evolved from transitional arrangements to the current federal mixed system, shaped by constitutional reforms and legal updates.
+
+Question: When was the monarchy abolished?
+Answer (English): Nepal abolished the monarchy in 2008 and moved to a republican system.
+
+Question: Has Nepal used electronic voting machines?
+Answer (English): EVMs have been piloted in Nepal, but elections are generally conducted using paper ballots.
+
+Question: What are the advantages of EVMs?
+Answer (English): EVM advantages can include faster counting, reduced ballot printing costs, and fewer invalid marks when properly implemented.
+
+Question: Why were EVMs not continued in Nepal?
+Answer (English): Challenges such as trust, logistics, and legal frameworks led Nepal to continue with paper ballots after pilots.
+
+Question: What challenges exist with traditional paper ballots?
+Answer (English): Paper ballots require robust logistics, secure storage, and careful counting; invalid marks and handling errors are mitigated through training and clear design.
+
+Question: What percentage of votes are typically invalid?
+Answer (English): Invalid vote percentages vary by election and are reported by ECN; training and ballot design aim to minimize invalid votes.
+
+Question: What are common problems during Nepal's elections?
+Answer (English): Common issues include logistics, weather-related disruptions, misinformation, and adherence to the code of conduct; ECN coordinates mitigation measures.
+
+Question: How is electoral fraud prevented?
+Answer (English): Fraud prevention includes trained officials, secure materials, observer access, strict procedures, and legal enforcement.
+
+Question: What happens when voting is disrupted?
+Answer (English): ECN may suspend, postpone, or order re-polling in affected areas according to law to ensure credible results.
+
+Question: How are disputed elections resolved?
+Answer (English): Disputes are resolved through legal processes, including ECN procedures and court adjudication as per election law.
+
+Question: What are the concerns about inclusive representation?
+Answer (English): Concerns include effective implementation of quotas, equitable selection on party lists, and balanced participation of diverse groups.
+
+Question: How do political parties register for elections?
+Answer (English): Parties register with ECN by submitting required documents and meeting legal criteria, including deadlines set in the election calendar.
+
+Question: What is the deadline for party registration?
+Answer (English): Deadlines are specified by ECN in the election calendar and notices for each election cycle.
+
+Question: How do electoral alliances work?
+Answer (English): Parties may form alliances and coordinate nominations or support arrangements; legal rules govern coalition conduct and transparency.
+
+Question: What are the rules for election campaigns?
+Answer (English): Campaigns must follow the election code of conduct, advertising and finance regulations, and lawful behavior standards set by ECN.
+
+Question: How is campaign financing regulated?
+Answer (English): Campaign finance is regulated by law, including reporting requirements and spending limits subject to ECN oversight.
+
+Question: What happens after votes are counted?
+Answer (English): Results are certified and published; seats are allocated; the government formation process begins based on House of Representatives composition.
+
+Question: How is the government formed?
+Answer (English): A party or coalition with majority support in the House of Representatives forms the government; the Prime Minister is appointed accordingly.
+
+Question: What is the term length for the House of Representatives?
+Answer (English): The House of Representatives has a five-year term unless dissolved earlier under constitutional provisions.
+
+Question: When can parliament be dissolved?
+Answer (English): Parliament can be dissolved under conditions specified in the constitution, typically involving government formation failures or legal triggers.
+
+Question: What happens when parliament is dissolved?
+Answer (English): A caretaker arrangement may be in place and fresh elections are scheduled according to constitutional and legal requirements.
+
+Question: When is the next general election scheduled?
+Answer (English): Consult ECN’s official election calendar and notices for the schedule of upcoming general elections.
+
+Question: What preparations are needed for elections?
+Answer (English): Preparations include voter list updates, staff training, ballot printing, materials distribution, security, and observer coordination.
+
+Question: How does the Election Commission prepare for elections?
+Answer (English): ECN prepares through planning, procurement, training, scheduling, and compliance checks across federal, provincial, and local levels.
+
+Question: What is the election calendar?
+Answer (English): The election calendar is the official schedule of activities and deadlines published by ECN for each election.
+
+Question: How does Nepal's electoral system compare to other countries?
+Answer (English): Nepal’s mixed parallel system balances constituency representation with party-based proportional seats; other countries use compensatory mixed-member systems or pure FPTP/PR.
+
+Question: What are the advantages and disadvantages of mixed electoral systems?
+Answer (English): Advantages include constituency accountability and broader party representation; disadvantages can include complexity and limited compensation between tiers in parallel systems.
+
+Question: Why did Nepal choose a parallel voting system?
+Answer (English): Parallel voting provides both local representation and proportional party seats while keeping allocation straightforward. Constitutional and political considerations shaped this choice.
+
+Question: What happens if a candidate wins in two constituencies?
+Answer (English): If allowed by law to contest, a candidate must vacate one seat upon winning in two constituencies; the vacated seat is filled through a by-election.
+
+Question: How are by-elections conducted?
+Answer (English): By-elections are conducted according to ECN procedures to fill vacancies, following nomination, campaigning, polling, and counting as per law.
+
+Question: What is the process if election results are contested?
+Answer (English): Contested results follow legal appeal and adjudication processes through ECN mechanisms and the courts.
+
+Question: How does the federal system impact election administration?
+Answer (English): Election administration spans federal, provincial, and local levels with coordinated roles to manage logistics, polling, counting, and oversight under ECN.
+

@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Election Chatbot</title>
+    <style>
+      :root {
+        --bg: #f6f7fb;
+        --card: #ffffff;
+        --border: #e6e8ee;
+        --primary: #7c3aed; /* violet */
+        --accent: #db2777;  /* magenta */
+        --muted: #64748b;
+        --bot: #fce7f3;     /* pink-100 */
+        --user: #e0f2fe;    /* sky-100 */
+      }
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        background:
+          linear-gradient(rgba(248,249,255,0.88), rgba(248,249,255,0.88)),
+          url('/static/assets/election-nepal.webp') no-repeat center center fixed;
+        background-size: cover;
+        margin: 0;
+      }
+      /* Floating button */
+      #fab {
+        position: fixed; right: 20px; bottom: 20px;
+        z-index: 1000;
+        width: 56px; height: 56px; border-radius: 50%;
+        border: none; cursor: pointer;
+        color: white;
+        background: linear-gradient(135deg, var(--primary), var(--accent));
+        box-shadow: 0 10px 20px rgba(124,58,237,0.3);
+        display: flex; align-items: center; justify-content: center;
+      }
+      #fab svg { width: 26px; height: 26px; }
+      /* Chat dock wraps widget and external close */
+      #chatDock {
+        position: fixed; right: 20px; top: 8px;
+        z-index: 1000;
+        display: none;
+      }
+      /* Chat widget */
+      .widget {
+        position: relative;
+        display: flex; flex-direction: column;
+        width: 380px; max-width: calc(100vw - 40px);
+        background: var(--card); border: 1px solid var(--border);
+        border-radius: 16px; box-shadow: 0 18px 30px rgba(16,24,40,0.12);
+        overflow: hidden;
+        height: 560px;
+        max-height: calc(100vh - 80px);
+      }
+      .widget.show { animation: popIn 200ms ease-out; }
+      .widget.hide { animation: foldOut 220ms ease-in forwards; transform-origin: top right; }
+      @keyframes popIn { from { transform: scale(0.98); opacity: 0 } to { transform: scale(1); opacity: 1 } }
+      @keyframes foldOut { to { transform: scaleY(0.0) rotateX(8deg); opacity: 0 } }
+      .header {
+        padding: 14px 52px 14px 20px; font-weight: 600; color: white;
+        background: linear-gradient(135deg, var(--primary), var(--accent));
+        position: relative;
+      }
+      .toolbar {
+        display: flex; justify-content: flex-end; gap: 8px;
+        padding: 8px 12px; border-bottom: 1px solid var(--border); background: #fff;
+      }
+      .btn {
+        border: 1px solid var(--border); background: #f8fafc; color: #0f172a;
+        padding: 6px 10px; border-radius: 8px; cursor: pointer;
+      }
+      .messages { flex: 1; min-height: 0; overflow-y: auto; padding: 16px 20px; background: #fafbff; }
+      .msg { margin: 8px 0; padding: 10px 12px; border-radius: 12px; max-width: 78%; }
+      .user { background: var(--user); align-self: flex-end; margin-left: auto; border: 1px solid #bae6fd; }
+      .bot { background: var(--bot); border: 1px solid #fbcfe8; }
+      .typing { display: inline-flex; align-items: center; gap: 4px; padding: 10px 12px; }
+      .dot { width: 6px; height: 6px; border-radius: 50%; background: #9f7aea; opacity: 0.6; animation: blink 900ms infinite; }
+      .dot:nth-child(2) { animation-delay: 150ms; }
+      .dot:nth-child(3) { animation-delay: 300ms; }
+      @keyframes blink { 0%, 80%, 100% { opacity: 0.3 } 40% { opacity: 1 } }
+      .chipbar { display:flex; flex-wrap:wrap; gap:8px; padding: 10px 16px; background: #fff; overflow-y: hidden; flex: 0 0 auto; }
+      .chipbar.top { max-height: none; }
+      .chipbar.bottom { max-height: 220px; overflow-y: auto; border-top: none; }
+      .chipbar.bottom:empty { display: none; }
+      .inputbar { display: none; gap: 8px; padding: 10px 16px; border-top: none; background: #fff; }
+      .inputbar input { flex: 1; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; }
+      button.chip {
+        background: #eef2ff; color: #1f2937; border: 1px solid #c7d2fe;
+        border-radius: 999px; padding: 6px 10px; cursor: pointer;
+      }
+      #closeFloat {
+        margin-top: 8px; width:44px; height:44px; border-radius:50%;
+        border: none; cursor:pointer; font-size:22px; line-height:38px; float: right;
+        color: #ffffff;
+        background: linear-gradient(135deg, var(--primary), var(--accent));
+        box-shadow: 0 10px 18px rgba(124,58,237,0.25);
+      }
+    </style>
+  </head>
+  <body>
+    <button id="fab" aria-label="Open chat">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-6l-4 3v-3H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="white"/></svg>
+    </button>
+    <div id="chatDock">
+      <div id="widget" class="widget">
+      <div class="header" id="hdrTitle">Sarika • Election Assistance</div>
+      <div class="toolbar">
+        <button id="reset" class="btn" aria-label="Reset chat">Reset</button>
+      </div>
+        <div id="messages" class="messages" style="display:flex; flex-direction:column;"></div>
+        <div id="inputbar" class="inputbar">
+          <input id="userInput" type="text" />
+          <button id="send" class="btn">Send</button>
+        </div>
+        <div id="suggestions" class="chipbar bottom"></div>
+        <div id="next" class="chipbar bottom"></div>
+      </div>
+      <button id="closeFloat" aria-label="Close chat">×</button>
+    </div>
+
+    <script>
+      const messagesEl = document.getElementById('messages');
+      const nextEl = document.getElementById('next');
+      const dockEl = document.getElementById('chatDock');
+      const widgetEl = document.getElementById('widget');
+      const fabEl = document.getElementById('fab');
+      const resetEl = document.getElementById('reset');
+      const hdrTitleEl = document.getElementById('hdrTitle');
+      const closeFloatEl = document.getElementById('closeFloat');
+      const inputbarEl = document.getElementById('inputbar');
+      const userInputEl = document.getElementById('userInput');
+      const sendEl = document.getElementById('send');
+      let started = false;
+      let busy = false;
+      let userDistrict = localStorage.getItem('userDistrict') || '';
+      let lastDisplayAsked = '';
+      let lastQueryAsked = '';
+      let useDistrictOnce = false;
+
+      const i18n = {
+        en: {
+          header: 'Sarika • Election Assistance',
+          reset: 'Reset',
+          greeting: 'Hello, I am Sarika. Welcome to the Election Assistance chatbot. I am here to help with election-related information. How can I assist you today?',
+          primary: ['Registration','Polling Center','Identification'],
+          other: 'Other Topics',
+          back: 'Back to Categories',
+          more: 'Show More',
+          errCat: 'Problem loading category.',
+          inputPlaceholder: 'Type your question here…',
+          send: 'Send',
+          setDistrict: 'Set your district'
+        }
+      };
+
+      function addMessage(text, who) {
+        const div = document.createElement('div');
+        div.className = `msg ${who}`;
+        div.textContent = text;
+        messagesEl.appendChild(div);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+      }
+
+      function showTyping(who = 'bot') {
+        const bubble = document.createElement('div');
+        bubble.className = `msg ${who} typing`;
+        bubble.innerHTML = '<span class="dot"></span><span class="dot"></span><span class="dot"></span>';
+        messagesEl.appendChild(bubble);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+        return () => bubble.remove();
+      }
+
+      function typeMessage(text, who = 'bot', speed = 16) {
+        return new Promise(resolve => {
+          const bubble = document.createElement('div');
+          bubble.className = `msg ${who}`;
+          messagesEl.appendChild(bubble);
+          let i = 0;
+          const run = () => {
+            bubble.textContent = text.slice(0, i);
+            messagesEl.scrollTop = messagesEl.scrollHeight;
+            if (i >= text.length) resolve();
+            else { i++; setTimeout(run, speed); }
+          };
+          run();
+        });
+      }
+
+      async function ask(text) {
+        return askWithDisplay(text, text);
+      }
+
+      async function askWithDisplay(displayText, queryText) {
+        if (busy) return;
+        busy = true;
+        lastDisplayAsked = displayText;
+        lastQueryAsked = queryText;
+        addMessage(displayText, 'user');
+        [...nextEl.children].forEach(c => c.remove());
+        sendEl.disabled = true;
+        userInputEl.disabled = true;
+        nextEl.style.pointerEvents = 'none';
+        const stopTyping = showTyping('bot');
+        try {
+          const res = await fetch('/answer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ question: queryText })
+          });
+          const data = await res.json();
+          stopTyping();
+          await typeMessage(data.answer, 'bot');
+          [...nextEl.children].forEach(c => c.remove());
+          const fbUp = document.createElement('button');
+          const fbDown = document.createElement('button');
+          fbUp.textContent = 'Helpful';
+          fbDown.textContent = 'Not Helpful';
+          fbUp.className = 'chip';
+          fbDown.className = 'chip';
+          nextEl.appendChild(fbUp);
+          nextEl.appendChild(fbDown);
+          fbUp.addEventListener('click', () => {
+            fbUp.remove(); fbDown.remove();
+            const stop = showTyping('bot');
+            setTimeout(async () => {
+              stop();
+              await typeMessage('Happy to help! If you need more information, feel free to ask another question.', 'bot', 14);
+            }, 300);
+            fetch('/feedback', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ question: lastQueryAsked, helpful: true })
+            }).catch(() => {});
+          });
+          fbDown.addEventListener('click', () => {
+            fbUp.remove(); fbDown.remove();
+            const stop = showTyping('bot');
+            setTimeout(async () => {
+              stop();
+              await typeMessage('Sorry this wasn’t helpful. Please share more details or ask another question.', 'bot', 14);
+            }, 300);
+            fetch('/feedback', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ question: lastQueryAsked, helpful: false })
+            }).catch(() => {});
+          });
+          busy = false;
+          sendEl.disabled = false;
+          userInputEl.disabled = false;
+          nextEl.style.pointerEvents = 'auto';
+        } catch (e) {
+          stopTyping();
+          addMessage('Error contacting chatbot. Is the server running?', 'bot');
+          busy = false;
+          sendEl.disabled = false;
+          userInputEl.disabled = false;
+          nextEl.style.pointerEvents = 'auto';
+        }
+      }
+
+      function currentGreeting(){ return i18n.en.greeting; }
+      function renderInitialOptions() {
+        inputbarEl.style.display = 'flex';
+        userInputEl.placeholder = i18n.en.inputPlaceholder || '';
+        sendEl.textContent = i18n.en.send;
+      }
+
+      function toggleWidget(show) {
+        if (show) {
+          widgetEl.classList.remove('hide');
+          dockEl.style.display = 'block';
+          widgetEl.classList.add('show');
+          fabEl.style.display = 'none';
+          if (!started) {
+            const stop = showTyping('bot');
+            setTimeout(async () => {
+              stop();
+              hdrTitleEl.textContent = i18n.en.header;
+              resetEl.textContent = i18n.en.reset;
+              await typeMessage(currentGreeting(), 'bot', 14);
+              renderInitialOptions();
+              started = true;
+            }, 500);
+          }
+        } else {
+          widgetEl.classList.remove('show');
+          widgetEl.classList.add('hide');
+          setTimeout(() => {
+            dockEl.style.display = 'none';
+            widgetEl.classList.remove('hide');
+            fabEl.style.display = 'flex';
+          }, 180);
+        }
+      }
+      toggleWidget(false);
+      fabEl.addEventListener('click', () => toggleWidget(true));
+      closeFloatEl.addEventListener('click', () => toggleWidget(false));
+      function resetChat() {
+        messagesEl.innerHTML = '';
+        [...nextEl.children].forEach(c => c.remove());
+        const stop = showTyping('bot');
+        setTimeout(async () => {
+          stop();
+          await typeMessage(currentGreeting(), 'bot', 14);
+          renderInitialOptions();
+          started = true;
+        }, 300);
+      }
+      resetEl.addEventListener('click', resetChat);
+      sendEl.addEventListener('click', () => {
+        if (busy) return;
+        const t = (userInputEl.value || '').trim();
+        if (!t) return;
+        userInputEl.value = '';
+        ask(t);
+      });
+      userInputEl.addEventListener('keydown', (e) => {
+        if (busy) return;
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          const t = (userInputEl.value || '').trim();
+          if (!t) return;
+          userInputEl.value = '';
+          ask(t);
+        }
+      });
+    </script>
+  </body>
+</html>
